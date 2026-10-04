@@ -9,7 +9,7 @@ const Header = () => {
         <header className="bg-[var(--md-sys-color-surface-container)] flex items-center justify-between sticky top-0 shadow-lg z-50 sm:rounded-t-lg">
             {/* venstre side */}
             <div className="flex items-center gap-4">
-                <img src="/kristiania_logo.jpg" className="h-14 w-auto sm:rounded-tl-lg"></img>
+                <img src="/kristiania-logo.jpg" className="h-14 w-auto sm:rounded-tl-lg"></img>
                 <h1 className="text-[var(--md-sys-color-on-surface)] text-[18px] font-semibold">
                     <span className="hidden sm:inline">Kristania </span>
                     Bachelorprosjekt

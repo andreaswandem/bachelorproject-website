@@ -6,7 +6,7 @@ const Hero = () => {
         <section className="bg-[var(--md-sys-color-surface-container-lowest)] relative bg-cover bg-right px-4 py-8 sm:px-22 sm:py-10">
 
             {/* Kristiania bilde */}
-            <div className="absolute inset-0 bg-[url('/kristiania_banner.png')] bg-cover bg-right opacity-20 sm:opacity-55"/>
+            <div className="absolute inset-0 bg-[url('/kristiania-banner.png')] bg-cover bg-right opacity-20 sm:opacity-55"/>
             {/* Fade */}
             <div className="absolute inset-0 bg-gradient-to-r
                             from-[var(--md-sys-color-surface-container-lowest)]

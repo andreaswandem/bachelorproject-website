@@ -9,7 +9,7 @@ const Team = () => {
                 {/* Andreas */}
                 <button className="rounded-lg overflow-hidden bg-white shadow-md cursor-pointer hover:-translate-y-1 hover:shadow-xl hover:font-semibold">
                     <div>
-                        <img src="/placeholder_img.webp" alt="" className="w-full"/>
+                        <img src="/placeholder-img.webp" alt="" className="w-full"/>
                     </div>
                     <div className="text-left px-4 py-4 bg-[var(--md-sys-color-surface-container-low)]">
                         <h2 className="font-semibold text-[var(--md-sys-color-on-surface-variant)]">
@@ -25,7 +25,7 @@ const Team = () => {
                 {/* Kristoffer */}
                 <button className="rounded-lg overflow-hidden bg-white shadow-md cursor-pointer hover:-translate-y-1 hover:shadow-xl hover:font-semibold">
                     <div>
-                        <img src="/placeholder_img.webp" alt="" className="w-full"/>
+                        <img src="/placeholder-img.webp" alt="" className="w-full"/>
                     </div>
                     <div className="text-left px-4 py-4 bg-[var(--md-sys-color-surface-container-low)]">
                         <h2 className="font-semibold text-[var(--md-sys-color-on-surface-variant)]">
@@ -41,7 +41,7 @@ const Team = () => {
                 {/* Ian */}
                 <button className="rounded-lg overflow-hidden bg-white shadow-md cursor-pointer hover:-translate-y-1 hover:shadow-xl hover:font-semibold">
                     <div>
-                        <img src="/placeholder_img.webp" alt="" className="w-full"/>
+                        <img src="/placeholder-img.webp" alt="" className="w-full"/>
                     </div>
                     <div className="text-left px-4 py-4 bg-[var(--md-sys-color-surface-container-low)]">
                         <h2 className="font-semibold text-[var(--md-sys-color-on-surface-variant)]">
