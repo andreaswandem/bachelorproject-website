@@ -4,12 +4,12 @@ const Footer = () => {
 
     return (
         <footer className="bg-[#B83543] flex flex-wrap items-center justify-between px-4 py-2 rounded-b-lg gap-2">
-            {/* left side */}
+            {/* venstre side */}
             <p className="text-white">Laget med React</p>
 
-            {/* right side */}
+            {/* høyre side */}
             <a 
-                href="#"
+                href="https://github.com/andreaswandem/bachelorproject-website"
                 className="flex items-center gap-1 text-white"
             >
                 <span className="hidden sm:inline">Se kildekoden på</span>
