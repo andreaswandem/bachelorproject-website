@@ -1,15 +1,14 @@
 import { Construction } from "lucide-react";
 
 const SubjectOverview = () => {
-
-    return (
-        <section className="bg-[var(--md-sys-color-surface-container-lowest)] hidden md:flex flex-col items-center justify-center gap-3 p-8 border-l-1 border-[var(--md-sys-color-outline-variant)]">
-            <Construction className="text-[var(--md-sys-color-secondary)] w-14 h-14" />
-            <p className="text-[var(--md-sys-color-on-surface-variant)]">Her kommer en interaktiv emneoversikt</p>
-        </section>
-
-    )
-
-}
+	return (
+		<section className="hidden flex-col items-center justify-center gap-3 border-l-1 border-[var(--md-sys-color-outline-variant)] bg-[var(--md-sys-color-surface-container-lowest)] p-8 md:flex">
+			<Construction className="h-14 w-14 text-[var(--md-sys-color-secondary)]" />
+			<p className="text-[var(--md-sys-color-on-surface-variant)]">
+				Her kommer en interaktiv emneoversikt
+			</p>
+		</section>
+	);
+};
 
 export default SubjectOverview;

@@ -8,22 +8,22 @@ import ProjectExamples from "./components/ProjectExamples";
 import Team from "./components/Team";
 
 function App() {
-  return (
-    <div className="min-h-screen bg-[var(--md-sys-color-surface)] sm:p-10 max-w-[1600px] mx-auto">
-      <Header />
-      <div className="px-2 pb-2 sm:p-0 shadow-lg">
-        <Hero />
-        <ShortInfo />
-        <Team />
-        <ProjectExamples />
-        <div className="grid grid-cols-1 md:grid-cols-2 border-b-2 border-[var(--md-sys-color-outline-variant)]">
-            <AboutProject />
-            <SubjectOverview />
-        </div>
-      <Footer />
-      </div>
-    </div>
-  );
+	return (
+		<div className="mx-auto min-h-screen max-w-[1600px] bg-[var(--md-sys-color-surface)] sm:p-10">
+			<Header />
+			<div className="px-2 pb-2 shadow-lg sm:p-0">
+				<Hero />
+				<ShortInfo />
+				<Team />
+				<ProjectExamples />
+				<div className="grid grid-cols-1 border-b-2 border-[var(--md-sys-color-outline-variant)] md:grid-cols-2">
+					<AboutProject />
+					<SubjectOverview />
+				</div>
+				<Footer />
+			</div>
+		</div>
+	);
 }
 
 export default App;
