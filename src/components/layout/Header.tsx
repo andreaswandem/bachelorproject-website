@@ -31,7 +31,7 @@ const Header = () => {
                         href="mailto:anwa033@student.kristiania.no"
                         className="flex items-center gap-2 text-[var(--md-sys-color-on-surface)]"
                     >   
-                        <Mail className="w-5 h-5" />
+                        <Mail className="text-[var(--md-sys-color-primary)] w-5 h-5" />
                         anwa033@student.kristiania.no
                     </a>
                 </div>

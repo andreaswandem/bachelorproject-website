@@ -9,7 +9,7 @@ import Team from "./components/Team";
 
 function App() {
   return (
-    <div className="min-h-screen bg-[var(--md-sys-color-surface-dim)] sm:p-10 max-w-[1600px] mx-auto">
+    <div className="min-h-screen bg-[var(--md-sys-color-surface)] sm:p-10 max-w-[1600px] mx-auto">
       <Header />
       <div className="px-2 pb-2 sm:p-0 shadow-lg">
         <Hero />
