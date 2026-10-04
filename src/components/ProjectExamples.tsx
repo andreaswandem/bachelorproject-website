@@ -9,15 +9,15 @@ import {
 
 const ProjectExamples = () => {
 	return (
-		<section className="border-y-2 border-[var(--md-sys-color-outline-variant)] bg-[var(--md-sys-color-surface-container-lowest)] px-4 py-6 sm:px-12">
-			<h2 className="mb-4 text-3xl text-[var(--md-sys-color-on-surface)]">
-				<span className="font-semibold text-[var(--md-sys-color-primary)]">
+		<section className="border-y-2 border-(--md-sys-color-outline-variant) bg-(--md-sys-color-surface-container-lowest) px-4 py-6 sm:px-12">
+			<h2 className="mb-4 text-3xl text-(--md-sys-color-on-surface)">
+				<span className="font-semibold text-(--md-sys-color-primary)">
 					Hva
 				</span>{" "}
 				kan vi bygge?
 			</h2>
 
-			<div className="flex [scrollbar-width:none] gap-4 overflow-x-auto [&::-webkit-scrollbar]:hidden">
+			<div className="flex scrollbar-none gap-4 overflow-x-auto [&::-webkit-scrollbar]:hidden">
 				{/* Webutvikling */}
 				<article className="group w-68 shrink-0 rounded-lg bg-[var(--md-sys-color-surface-container-low)] p-4 inset-shadow-sm inset-shadow-black/10 hover:inset-shadow-black/20 md:w-100">
 					<h3 className="mb-2 flex items-center justify-between font-semibold text-[var(--md-sys-color-on-surface)]">
