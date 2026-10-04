@@ -1,1 +1,1 @@
-TODO: Komponentisering
+TODO: Team
