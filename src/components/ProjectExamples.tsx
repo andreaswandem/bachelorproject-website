@@ -3,7 +3,7 @@ import { Laptop, Smartphone, CalendarCheck, RefreshCw, Calendar, Puzzle } from "
 const ProjectExamples = () => {
 
     return (
-        <section className="bg-[var(--md-sys-color-surface-container-lowest)] px-4 py-6 sm:px-12 border-y-4 border-[var(--md-sys-color-surface-dim)]">
+        <section className="bg-[var(--md-sys-color-surface-container-lowest)] px-4 py-6 sm:px-12 border-y-2 border-[var(--md-sys-color-outline-variant)]">
             <h2 className="text-[var(--md-sys-color-on-surface)] text-3xl mb-4">
                 <span className="font-semibold text-[var(--md-sys-color-primary)]">Hva</span> kan vi bygge?
             </h2>

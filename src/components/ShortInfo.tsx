@@ -3,7 +3,7 @@ import { Users, CalendarDays, Clock, GraduationCap } from "lucide-react";
 const ShortInfo = () => {
 
     return (
-        <section className="bg-[var(--md-sys-color-surface-container-lowest)] px-4 py-4 sm:px-14 border-y-4 border-[var(--md-sys-color-surface-dim)]">
+        <section className="bg-[var(--md-sys-color-surface-container-lowest)] px-4 py-4 sm:px-14 border-y-2 border-[var(--md-sys-color-outline-variant)]">
 
             <dl className="grid grid-cols-2 lg:grid-cols-4 gap-6 text-center">
 
@@ -15,7 +15,7 @@ const ShortInfo = () => {
                     </dt>
                     <dd className="mt-1 text-[var(--md-sys-color-on-surface-variant)]">
                         Januar–mai 2027
-                        <span className="block mx-auto mt-6 w-18 border-b-1 border-[#D4CABC] lg:hidden" />
+                        <span className="block mx-auto mt-6 w-18 border-b-1 border-[var(--md-sys-color-outline)] lg:hidden" />
                     </dd>
                 </div>
 
@@ -27,7 +27,7 @@ const ShortInfo = () => {
                     </dt>
                     <dd className="mt-1 text-[var(--md-sys-color-on-surface-variant)]">
                         3–4 dager i uken
-                        <span className="block mx-auto mt-6 w-18 border-b-1 border-[#D4CABC] lg:hidden" />
+                        <span className="block mx-auto mt-6 w-18 border-b-1 border-[var(--md-sys-color-outline)] lg:hidden" />
                     </dd>
                 </div>
 

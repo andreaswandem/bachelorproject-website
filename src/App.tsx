@@ -16,7 +16,7 @@ function App() {
         <ShortInfo />
         <Team />
         <ProjectExamples />
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-1 border-b-4 border-[var(--md-sys-color-surface-dim)]">
+        <div className="grid grid-cols-1 md:grid-cols-2 border-b-2 border-[var(--md-sys-color-outline-variant)]">
             <AboutProject />
             <SubjectOverview />
         </div>

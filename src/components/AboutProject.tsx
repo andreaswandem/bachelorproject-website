@@ -3,7 +3,7 @@ import { ExternalLink } from "lucide-react";
 const AboutProject = () => {
 
     return (
-        <section className="bg-[var(--md-sys-color-surface-container-lowest)] px-4 py-6 sm:px-12">
+        <section className="bg-[var(--md-sys-color-surface-container-lowest)] px-4 py-6 sm:px-12 border-r-1 border-[var(--md-sys-color-outline-variant)]">
             {/* Tittel */}
             <h2 className="text-[var(--md-sys-color-on-surface)] text-3xl mb-4">
                 <span className="font-semibold text-[var(--md-sys-color-primary)]">Om</span> bachelorprosjektet
