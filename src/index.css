@@ -2,5 +2,5 @@
 
 html,
 body {
-  background-color: #D4CABC;
+  background-color: var(--md-sys-color-surface-dim)
 }

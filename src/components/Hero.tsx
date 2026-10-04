@@ -3,21 +3,26 @@ import Typewriter from "typewriter-effect";
 const Hero = () => {
 
     return (
-        <section className="relative bg-[#FCF8F5] bg-cover bg-right px-4 py-8 sm:px-22 sm:py-10">
+        <section className="bg-[var(--md-sys-color-surface-container-lowest)] relative bg-cover bg-right px-4 py-8 sm:px-22 sm:py-10">
 
-            {/* AI bilde av krisitania */}
+            {/* Kristiania bilde */}
             <div className="absolute inset-0 bg-[url('/kristiania_banner.png')] bg-cover bg-right opacity-20 sm:opacity-55"/>
-            <div className="absolute inset-0 bg-[linear-gradient(to_right,#FCF8F5_0%,rgba(252,248,245,0.85)_55%,transparent_100%)]" />
+            {/* Fade */}
+            <div className="absolute inset-0 bg-gradient-to-r
+                            from-[var(--md-sys-color-surface-container-lowest)]
+                            via-[var(--md-sys-color-surface-container-lowest)]
+                            to-transparent" 
+            />
 
             <div className="relative max-w-2xl">
                 {/* Typewriter tittel */}
-                <h1 className="text-3xl min-h-[72px] sm:min-h-[0] sm:text-4xl"> {/* min-h-[72px] = "midlertidlig" fix for mobilvisning */}
+                <h1 className="text-[var(--md-sys-color-on-surface)] text-3xl min-h-[72px] sm:min-h-[0] sm:text-4xl"> {/* min-h-[72px] = "midlertidlig" fix for mobilvisning */}
                     <Typewriter
                         options = {{
                             strings: [
-                                "Har dere en <strong class='font-bold text-[#B83543]'>utfordring</strong> vi kan løse?",
-                                "Vi søker en <strong class='font-bold text-[#B83543]'>samarbeidspartner.</strong>",
-                                "Skal vi skape noe <strong class='font-bold text-[#B83543]'>verdifullt</strong> sammen?"
+                                "Har dere en <strong class='font-semibold text-[var(--md-sys-color-primary)]'>utfordring</strong> vi kan løse?",
+                                "Vi søker en <strong class='font-semibold text-[var(--md-sys-color-primary)]'>samarbeidspartner.</strong>",
+                                "Skal vi skape noe <strong class='font-semibold text-[var(--md-sys-color-primary)]'>verdifullt</strong> sammen?"
                             ],
                             autoStart: true,
                             loop: true,
@@ -29,7 +34,7 @@ const Hero = () => {
                 </h1>
                 
                 {/* Om */}
-                <p className="mt-4 leading-relaxed">
+                <p className="text-[var(--md-sys-color-on-surface)] mt-4 leading-relaxed">
                     Vi er tre bachelorstudenter i frontend- og mobilutvikling ved Høyskolen Kristiania. 
                     Våren 2027 skal vi gjennomføre bachelorprosjektet vårt, og vi søker en bedrift som vil samarbeide 
                     om en reell utfordring. Har dere en idé dere vil utforske, en arbeidsprosess som kan forenkles, 
