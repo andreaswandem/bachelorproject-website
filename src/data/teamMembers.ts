@@ -38,7 +38,7 @@ export const teamMembers: TeamMember[] = [
     },
     {
         id: "ian",
-        name: "Ian Skaug Kaid",
+        name: "Ian Skaug Kadir",
         image: "/ian.png",
         location: "Drammen, Norge",
         bio: `
