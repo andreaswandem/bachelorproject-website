@@ -39,7 +39,7 @@ export const teamMembers: TeamMember[] = [
     {
         id: "ian",
         name: "Ian Skaug Kaid",
-        image: "/placeholder-img.webp",
+        image: "/ian.png",
         location: "Drammen, Norge",
         bio: `
             Ian bygger helst ting selv, og fritiden går ofte til egne kodeprosjekter som hverdagsapper og spill. 
