@@ -40,8 +40,13 @@ export const teamMembers: TeamMember[] = [
         id: "ian",
         name: "Ian Skaug Kaid",
         image: "/placeholder-img.webp",
-        location: "Norge",
-        bio: "Bilde og biograf kommer",
+        location: "Drammen, Norge",
+        bio: `
+            Ian bygger helst ting selv, og fritiden går ofte til egne kodeprosjekter som hverdagsapper og spill. 
+            Han kan React og TypeScript, og lager mobilapper i Swift og Kotlin. Ved siden av koding spiller han 
+            gitar og piano, og setter seg gjerne ned for å lære en ny låt. Fotball og flere arbeidsplasser har 
+            gitt ham god erfaring med å jobbe sammen med andre.
+        `,
         linkedin: "https://www.linkedin.com/in/iansk/",
         github: "https://github.com/IaSKad"
     }
