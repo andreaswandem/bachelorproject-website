@@ -1,5 +1,5 @@
 import ShortInfo from "./components/ShortInfo";
-import SubjectOverview from "./components/SubjectOverview";
+import GroupPicture from "./components/GroupPicture";
 import AboutProject from "./components/AboutProject";
 import Header from "./components/layout/Header";
 import Hero from "./components/Hero";
@@ -18,7 +18,7 @@ function App() {
 				<ProjectExamples />
 				<div className="grid grid-cols-1 border-b-2 border-(--md-sys-color-outline-variant) md:grid-cols-2">
 					<AboutProject />
-					<SubjectOverview />
+					<GroupPicture />
 				</div>
 				<Footer />
 			</div>

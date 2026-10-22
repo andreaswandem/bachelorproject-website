@@ -16,9 +16,8 @@ export const teamMembers: TeamMember[] = [
         location: "Oslo, Norge",
         bio: `
             Andreas er spesielt interessert i mobilutvikling og bruker mye tid på å finpusse design og brukeropplevelse. 
-            For tiden utvikler han egne iOS-applikasjoner og eksperimenterer med Raspberry Pi-prosjekter. På fritiden 
-            finner du ham i skibakken klokken seks om morgenen under Skimores frokostkjøring, 
-            eller på brettet som vindsurfer, avhengig av årstiden.
+            For tiden utvikler han egne iOS-applikasjoner og eksperimenterer med Raspberry Pi-prosjekter. På fritiden
+            finner du ham i skibakken eller på brettet som vindsurfer, avhengig av årstiden.
         `,
         linkedin: "https://www.linkedin.com/in/andreas-bernhard-wandem-9b7a76375/",
         github: "https://github.com/andreaswandem"
