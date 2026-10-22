@@ -1,12 +1,14 @@
-import { Construction } from "lucide-react";
-
 const SubjectOverview = () => {
 	return (
-		<section className="hidden flex-col items-center justify-center gap-3 border-l-1 border-[var(--md-sys-color-outline-variant)] bg-[var(--md-sys-color-surface-container-lowest)] p-8 md:flex">
-			<Construction className="h-14 w-14 text-[var(--md-sys-color-secondary)]" />
-			<p className="text-[var(--md-sys-color-on-surface-variant)]">
-				Her kommer en interaktiv emneoversikt
-			</p>
+		<section className="hidden border-l border-(--md-sys-color-outline-variant) bg-(--md-sys-color-surface-container-lowest) px-12 py-6 md:block">
+			<div className="relative h-full overflow-hidden rounded-lg border border-(--md-sys-color-outline-variant)">
+				<img
+					src="/the-boys.jpg"
+					alt="The boys"
+					className="absolute inset-0 h-full w-full object-cover brightness-95 saturate-90"
+				/>
+				<div className="absolute inset-0 bg-(--md-sys-color-primary)/10 mix-blend-multiply" />
+			</div>
 		</section>
 	);
 };
